@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opera - Your Gateway to Knowledge access</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-slate-800">
+
+]
+    <header id="header" class="bg-white shadow-sm sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 inline-block mr-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3.5a1 1 0 00.028 1.76l7 3.5a1 1 0 00.732 0l7-3.5a1 1 0 00.028-1.76l-7-3.5z" />
+                  <path d="M10 11.654L3.028 8.154a1 1 0 00-.996 1.732l7 3.5a1 1 0 00.936 0l7-3.5a1 1 0 00-.996-1.732L10 11.654z" />
+                  <path d="M10 15.654L3.028 12.154a1 1 0 00-.996 1.732l7 3.5a1 1 0 00.936 0l7-3.5a1 1 0 00-.996-1.732L10 15.654z" />
+                </svg>
+                Opera
+            </a>
+            <div class="hidden md:flex items-center space-x-6">
+                <a href="#courses" class="text-slate-600 hover:text-blue-600 transition-colors">Courses</a>
+                <a href="#about" class="text-slate-600 hover:text-blue-600 transition-colors">About Us</a>
+                <a href="#testimonials" class="text-slate-600 hover:text-blue-600 transition-colors">Testimonials</a>
+                <a href="#contact" class="text-slate-600 hover:text-blue-600 transition-colors">Contact</a>
+            </div>
+            <div class="flex items-center">
+                 <button id="signUpBtn" class="bg-blue-600 text-white px-5 py-2 rounded-full hover:bg-blue-700 transition-all font-semibold shadow-md">
+                    Sign Up
+                </button>
+                <button id="mobileMenuBtn" class="md:hidden ml-4 p-2 rounded-md text-slate-600 hover:bg-slate-100 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+   
+        <div id="mobileMenu" class="hidden md:hidden bg-white border-t">
+            <a href="#courses" class="block py-2 px-6 text-sm text-slate-600 hover:bg-slate-50">Courses</a>
+            <a href="#about" class="block py-2 px-6 text-sm text-slate-600 hover:bg-slate-50">About Us</a>
+            <a href="#testimonials" class="block py-2 px-6 text-sm text-slate-600 hover:bg-slate-50">Testimonials</a>
+            <a href="#contact" class="block py-2 px-6 text-sm text-slate-600 hover:bg-slate-50">Contact</a>
+        </div>
+    </header>
+
+  
+    <main>
+    
+        <section class="hero-bg text-white">
+            <div class="container mx-auto px-6 py-24 md:py-32 text-center">
+                <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-4 fade-in">Unlock Your learning Potential</h1>
+                <p class="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto mb-8 fade-in" style="transition-delay: 200ms;">Join the billions of learners and start mastering new skills with our expert-led online courses.</p>
+                <a href="#courses" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full text-lg hover:bg-slate-100 transition-all shadow-lg transform hover:scale-105 fade-in" style="transition-delay: 400ms;">
+                    Get Started with your personalized learning
+                </a>
+            </div>
+        </section>
+
+        <section id="courses" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Featured-Courses</h2>
+                    <p class="text-slate-600 mt-2">Choose your courses to start your learning journey.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                   
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover transition-all duration-300 fade-in">
+                        <img src="https://placehold.co/600x400/3b82f6/ffffff?text=Web+Dev" alt="Web Development Course" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">Web Developer online course</h3>
+                            <p class="text-slate-600 mb-4">From beginner to Full Stack Developer.</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-lg font-bold text-blue-600">$50.99</span>
+                                <a href="#" class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-semibold text-sm hover:bg-blue-200 transition-colors">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover transition-all duration-300 fade-in" style="transition-delay: 200ms;">
+                        <img src="https://placehold.co/600x400/10b981/ffffff?text=Data+Science" alt="Data Science Course" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">Data Science</h3>
+                            <p class="text-slate-600 mb-4">Learn Data Science concepts</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-lg font-bold text-blue-600">$89.99</span>
+                                <a href="#" class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-semibold text-sm hover:bg-blue-200 transition-colors">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="bg-white rounded-lg shadow-lg overflow-hidden card-hover transition-all duration-300 fade-in" style="transition-delay: 400ms;">
+                        <img src="https://placehold.co/600x400/f59e0b/ffffff?text=UI/UX+Design" alt="UI/UX Design Course" class="w-full h-48 object-cover">
+                        <div class="p-6">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">Ultimate UI/UX Design Masterclass</h3>
+                            <p class="text-slate-600 mb-4">wirframes to prototype-best place to learn</p>
+                            <div class="flex justify-between items-center">
+                                <span class="text-lg font-bold text-blue-600">$99.99</span>
+                                <a href="#" class="bg-blue-100 text-blue-700 px-4 py-2 rounded-full font-semibold text-sm hover:bg-blue-200 transition-colors">Enroll Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  
+        <section id="about" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12">
+                    <div class="md:w-1/2 fade-in">
+                        <img src="https://placehold.co/600x400/6366f1/ffffff?text=Our+Mission" alt="Team working together" class="rounded-lg shadow-xl">
+                    </div>
+                    <div class="md:w-1/2 fade-in" style="transition-delay: 200ms;">
+                        <h2 class="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Our Mission</h2>
+                        <p class="text-slate-600 mb-4 leading-relaxed">At Opera, our main mission is make an high-quality education accessible to everyone, everywhere. We believe learning is lifelong journey and we are strongly committed to providing tools and resources to help you succeed.</p>
+                        <p class="text-slate-600 leading-relaxed">Our mentors are industry expertizer's and passionate about teaching.
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="py-20 bg-white">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12 fade-in">
+                    <h2 class="text-3xl md:text-4xl font-bold text-slate-900">Students talk</h2>
+                    <p class="text-slate-600 mt-2">Real stories from learners who transformed their life from learner to experts.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                   
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm fade-in">
+                        <p class="text-slate-600 italic mb-4">"The Web Developer online course is best thing in my life. I landed a new job after a three month of completing the course. Highly rewarding course.</p>
+                        <div class="flex items-center">
+                            <img src="https://i.pravatar.cc/150?u=a042581f4e29026704d" alt="Avatar of Sarah L." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold text-slate-800">Ramika</p>
+                                <p class="text-sm text-slate-500">Web Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm fade-in" style="transition-delay: 200ms;">
+                        <p class="text-slate-600 italic mb-4">"I always found data science interesting but this was easy to understand with best materials. The instructor was amazing and very supportive."</p>
+                        <div class="flex items-center">
+                            <img src="https://i.pravatar.cc/150?u=a042581f4e29026704e" alt="Avatar of Michael B." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold text-slate-800">Rahul</p>
+                                <p class="text-sm text-slate-500">Data Analyst</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <div class="bg-slate-50 p-6 rounded-lg shadow-sm fade-in" style="transition-delay: 400ms;">
+                        <p class="text-slate-600 italic mb-4">"The UI/UX course made me build a solid portfolio for my resume. I now feel confident in my new designing skills that i have learned in this course."</p>
+                        <div class="flex items-center">
+                            <img src="https://i.pravatar.cc/150?u=a042581f4e29026704f" alt="Avatar of Jessica P." class="w-12 h-12 rounded-full mr-4">
+                            <div>
+                                <p class="font-bold text-slate-800">Pallavi</p>
+                                <p class="text-sm text-slate-500">Freelance Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact" class="bg-slate-800 text-white">
+        <div class="container mx-auto px-6 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-lg font-bold mb-4">Opera</h3>
+                    <p class="text-slate-400">Your journey to knowledge starts here. We are dedicated to providing the best online learning experience.</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#courses" class="text-slate-400 hover:text-white transition-colors">Courses</a></li>
+                        <li><a href="#about" class="text-slate-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Contact Us</h3>
+                    <p class="text-slate-400">123 Mind Space,<br>Hitech City, 54321</p>
+                    <p class="text-slate-400 mt-2">Email: support@opera.com</p>
+                </div>
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                        </a>
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
+                        </a>
+                        <a href="#" class="text-slate-400 hover:text-white transition-colors">
+                           <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12.013c0 4.418 2.865 8.167 6.738 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.031-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.203 2.398.1 2.651.64.7 1.03 1.595 1.03 2.688 0 3.848-2.338 4.695-4.566 4.942.359.308.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.001 10.001 0 0022 12.013C22 6.477 17.523 2 12 2z" clip-rule="evenodd" /></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-slate-700 pt-8 text-center text-slate-400 text-sm">
+                <p>&copy; 2025 Opera. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <div id="signUpModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div id="modalContent" class="bg-white p-8 rounded-lg shadow-2xl w-full max-w-md transform transition-all duration-300 scale-95 opacity-0">
+            <div class="flex justify-between items-center mb-6">
+                <h2 class="text-2xl font-bold text-slate-800">Create Your Account</h2>
+                <button id="closeModalBtn" class="text-slate-500 hover:text-slate-800">&times;</button>
+            </div>
+            <form>
+                <div class="mb-4">
+                    <label for="name" class="block text-slate-700 text-sm font-bold mb-2">Full Name</label>
+                    <input type="text" id="name" class="w-full px-3 py-2 border rounded-md text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="John Doe">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-slate-700 text-sm font-bold mb-2">Email Address</label>
+                    <input type="email" id="email" class="w-full px-3 py-2 border rounded-md text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="you@example.com">
+                </div>
+                <div class="mb-6">
+                    <label for="password" class="block text-slate-700 text-sm font-bold mb-2">Password</label>
+                    <input type="password" id="password" class="w-full px-3 py-2 border rounded-md text-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="••••••••">
+                </div>
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-full font-bold hover:bg-blue-700 transition-colors">Sign Up for Free</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
